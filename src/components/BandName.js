@@ -5,17 +5,23 @@ import Typing from 'react-typing-animation';
 
 const StyledBandName = styled.div`
   color:white;
-  font-size: 30px;
+  font-size: 2.5vw;
+  font-family: 'Charm', cursive;
   font-family: 'Quicksand', sans-serif;
-  width: 26vw;
+  font-family: 'Nunito', sans-serif;
+  width: 50vw;
+  height: 3rem; 
+  display:flex;
+  align-items:center;
+  letter-spacing:3px;
 `
 
 export default class NavBar extends Component {
   render() {
     return (
-      <Typing> 
+      <Typing>
         <StyledBandName>
-        Lady Love <div>&</div> The Losing Streak.
+          Lady Love & The Losing Streak.
         </StyledBandName>
       </Typing>
     )
