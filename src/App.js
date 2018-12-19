@@ -5,7 +5,7 @@ import LandingPage from './components/LandingPage';
 import styled from 'styled-components'
 
 const StyledBackground = styled.div`
-  background:black;
+  background:white;
 `
 class App extends Component {
   render() {

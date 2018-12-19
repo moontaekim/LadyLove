@@ -1,21 +1,23 @@
 import React, { Component } from 'react'
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
+import Typing from 'react-typing-animation';
+
 
 const StyledBandName = styled.div`
   color:white;
   font-size: 30px;
   font-family: 'Quicksand', sans-serif;
-  width: 25vw;
+  width: 26vw;
 `
 
 export default class NavBar extends Component {
   render() {
     return (
-      <div>
+      <Typing> 
         <StyledBandName>
-        Lady Love <div>&</div> The Losing Streak
+        Lady Love <div>&</div> The Losing Streak.
         </StyledBandName>
-      </div>
+      </Typing>
     )
   }
 }

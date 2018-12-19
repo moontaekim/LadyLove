@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import BandName from './BandName';
+import MidPageNavigation from './MidPageNavigation';
 
 const StyledParallax = styled.div`
 background-color: #ff6e67;
-background-image: url("https://i.imgur.com/BZ16wC6.jpg");  
-height: 100vh; 
+background-image: url("https://i.imgur.com/sePFmAJ.jpg");  
+height: 95vh; 
 background-attachment: fixed;
-height:100vh;
 background-position: center;
 `
 const StyledBottom = styled.div`
@@ -22,7 +22,7 @@ export default class LandingPage extends Component {
       <StyledParallax>
         <BandName/>
       </StyledParallax>
-      <StyledBottom>sadfasd</StyledBottom>
+      <MidPageNavigation/>
       </div>
     )
   }
