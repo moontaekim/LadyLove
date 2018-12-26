@@ -13,11 +13,12 @@ align-items:center;
 const StyledIframe = styled.iframe`
 	border: 5px outset black;
   margin: 10px;
+  position:relative;
 `
 export default class Announcements extends Component {
   render() {
     return (
-      <StyledAnnouncements>
+      <StyledAnnouncements name="music">
         <Fade>
           <StyledIframe width="520" height="415"
             src="https://www.youtube.com/embed/EvfFBukkvVM">

@@ -5,6 +5,7 @@ import MidPageNavigation from './MidPageNavigation';
 import NavBar from './NavBar';
 import Announcements from './Announcements';
 import AboutUs from './AboutUs';
+import Contact from './Contact';
 
 const StyledParallax = styled.div`
 background-color: #ff6e67;
@@ -19,6 +20,8 @@ display:flex;
 justify-content:space-between;
 position:fixed;
 background-color:rgba(172,164,157, 0.4);
+z-index: 99999;
+
 `
 const StyledMidPage = styled.div`
   overflow: hidden;
@@ -26,12 +29,14 @@ const StyledMidPage = styled.div`
   bottom: 0;
   width: 100%;
   background:white;
+  z-index: 99999;
+
 `
 
 export default class LandingPage extends Component {
   render() {
     return (
-      <div>
+      <div name="home">
         <StyledParallax>
           <StyledHeader>
             <div>
@@ -47,6 +52,7 @@ export default class LandingPage extends Component {
         </StyledMidPage>
         <Announcements/>
         <AboutUs/>
+        <Contact/>
       </div>
     )
   }

@@ -14,6 +14,7 @@ const StyledBandName = styled.div`
   display:flex;
   align-items:center;
   letter-spacing:3px;
+  padding-left:10px;
 `
 
 export default class NavBar extends Component {
