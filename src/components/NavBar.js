@@ -18,10 +18,10 @@ export default class NavBar extends Component {
     return (
       <StyledNavBar>
         <a>Home</a>
-        <div>About Us</div>
-        <div>Contact</div>
-        <div>Music</div>
-        <div>Events</div>
+        <a>About Us</a>
+        <a>Contact</a>
+        <a>Music</a>
+        <a>Events</a>
       </StyledNavBar>
     )
   }
