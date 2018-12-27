@@ -14,7 +14,9 @@ font-family: 'Quicksand', sans-serif;
 font-family: 'Nunito', sans-serif;
 `
 const StyledLink = styled(Link)`
-
+  :hover{
+    text-decoration: underline;
+  }
 `
 
 export default class NavBar extends Component {
@@ -23,7 +25,6 @@ export default class NavBar extends Component {
       <StyledNavBar>
         <StyledLink activeClass="active" to="home" spy={true} smooth={true} duration={500}>Home</StyledLink>
         <StyledLink activeClass="active" to="aboutUs" spy={true} smooth={true} duration={500}>About Us</StyledLink>
-        <StyledLink activeClass="active" to="contact" spy={true} smooth={true} duration={500}>Contact</StyledLink>
         <StyledLink activeClass="active" to="music" spy={true} smooth={true} duration={500} >Music</StyledLink>
         <StyledLink activeClass="active" to="events" spy={true} smooth={true} duration={500}>Events</StyledLink>
       </StyledNavBar>

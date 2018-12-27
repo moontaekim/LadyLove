@@ -33,6 +33,9 @@ export default class MidPageNavigation extends Component {
         <StyledLink href="https://itunes.apple.com/ca/artist/lady-love-the-losing-streak/1226720635" target="_blank">
         <i class="fa fa-music" aria-hidden="true"></i>
         </StyledLink>
+        <StyledLink href="mailto:moontae1992@email.com">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+      </StyledLink>
       </StyledMidPageNavigation>
     )
   }

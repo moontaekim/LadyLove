@@ -5,7 +5,6 @@ import MidPageNavigation from './MidPageNavigation';
 import NavBar from './NavBar';
 import Announcements from './Announcements';
 import AboutUs from './AboutUs';
-import Contact from './Contact';
 
 const StyledParallax = styled.div`
 background-color: #ff6e67;
@@ -50,9 +49,8 @@ export default class LandingPage extends Component {
         <StyledMidPage>
         <MidPageNavigation />
         </StyledMidPage>
-        <Announcements/>
         <AboutUs/>
-        <Contact/>
+        <Announcements/>
       </div>
     )
   }
