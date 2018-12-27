@@ -6,6 +6,10 @@ const StyledMidPageNavigation = styled.div`
   font-size: 25px;
   display:flex;
   justify-content:space-evenly;
+  align-items: center;
+    @media (max-width: 500px){
+  height: 9vh;
+}
 `
 const StyledLink = styled.a`
   color: inherit;
