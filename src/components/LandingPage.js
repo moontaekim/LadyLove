@@ -12,7 +12,9 @@ background-image: url("https://i.imgur.com/2CKY8Sm.jpg");
 background-size:100vw;
 height: 100vh; 
 background-attachment: fixed;
-background-position: center;
+@media (max-width: 500px){
+  background-repeat:no-repeat;
+}
 `
 const StyledHeader = styled.div`
 display:flex;

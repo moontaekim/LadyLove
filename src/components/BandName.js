@@ -15,6 +15,9 @@ const StyledBandName = styled.div`
   align-items:center;
   letter-spacing:3px;
   padding-left:10px;
+  @media (max-width: 500px){
+    font-size: 1.9vw;
+}
 `
 
 export default class NavBar extends Component {

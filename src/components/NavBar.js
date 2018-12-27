@@ -12,8 +12,12 @@ height: 3rem;
 font-family: 'Charm', cursive;
 font-family: 'Quicksand', sans-serif;
 font-family: 'Nunito', sans-serif;
+
 `
 const StyledLink = styled(Link)`
+@media (max-width: 500px){
+  font-size: .5rem;
+}
   :hover{
     text-decoration: underline;
   }
