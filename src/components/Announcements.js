@@ -14,23 +14,29 @@ const StyledIframe = styled.iframe`
 	border: 5px outset black;
   margin: 10px;
   position:relative;
+  width: 520px;
+  height: 415px;
+  @media (max-width: 500px){
+    width: 80vw;
+    height: 50vh;
+}
 `
 export default class Announcements extends Component {
   render() {
     return (
       <StyledAnnouncements name="music">
         <Fade>
-          <StyledIframe width="520" height="415"
+          <StyledIframe 
             src="https://www.youtube.com/embed/EvfFBukkvVM">
           </StyledIframe>
         </Fade>
         <Fade>
-          <StyledIframe width="520" height="415"
+          <StyledIframe 
             src="https://www.youtube.com/embed/cH3H3KsWd5k">
           </StyledIframe>
         </Fade>
         <Fade>
-          <StyledIframe width="520" height="415"
+          <StyledIframe 
             src="https://www.youtube.com/embed/Dmvg9RenGh4">
           </StyledIframe>
         </Fade>
