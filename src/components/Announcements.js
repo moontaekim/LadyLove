@@ -28,15 +28,18 @@ export default class Announcements extends Component {
         <Fade>
           <h1>Upcoming News</h1>
           <div>04/27/2019: we are headlining aisle 5 </div>
+          <div> Check out our new song Brave Friend below!</div>
           <StyledIframe 
             src="https://www.youtube.com/embed/EvfFBukkvVM">
           </StyledIframe>
         </Fade>
+        <div> Check out our new song Brave Friend below!</div>
         <Fade>
           <StyledIframe 
             src="https://www.youtube.com/embed/cH3H3KsWd5k">
           </StyledIframe>
         </Fade>
+        <div> Check out our song Dark Blue Lies recorded in Athens,GA.</div>
         <Fade>
           <StyledIframe 
             src="https://www.youtube.com/embed/Dmvg9RenGh4">
