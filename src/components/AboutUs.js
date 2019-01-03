@@ -12,11 +12,13 @@ const StyledAboutUs = styled.div`
 const StyledImage = styled.img`
   width: 30vw;
   border:3px solid #021a40;
+  @media (max-width: 500px){
+    width: 40vw;
+}
 `
 const StyledBio = styled.div`
   display:flex;
   margin: 6px;
-
   justify-content:space-evenly;
   font-family: 'Charm', cursive;
   font-family: 'Quicksand', sans-serif;
@@ -25,9 +27,16 @@ const StyledBio = styled.div`
 `
 const StyledName = styled.span`
   font-size: 2rem;
+  @media (max-width: 500px){
+ font-size: 1.3rem;
+}
 `
 const StyledAbout = styled.div`
  width: 30vw;
+ @media (max-width: 500px){
+ font-size: 0.7rem;
+ width: 40vw;
+}
 `
 const StyledInstrument = styled.i`
   font-size: 1rem;

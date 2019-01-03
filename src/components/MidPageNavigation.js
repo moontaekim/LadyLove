@@ -8,7 +8,7 @@ const StyledMidPageNavigation = styled.div`
   justify-content:space-evenly;
   align-items: center;
     @media (max-width: 500px){
-  height: 9vh;
+  height: 10vh;
 }
 `
 const StyledLink = styled.a`

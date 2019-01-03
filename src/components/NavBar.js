@@ -16,7 +16,7 @@ font-family: 'Nunito', sans-serif;
 `
 const StyledLink = styled(Link)`
 @media (max-width: 500px){
-  font-size: .5rem;
+  font-size: .65rem;
 }
   :hover{
     text-decoration: underline;

@@ -15,7 +15,8 @@ background-attachment: fixed;
 @media (max-width: 500px){
   background-repeat:no-repeat;
   height: 39vh; 
-
+  background-size:110vw;
+  background-position: top;
 }
 `
 const StyledHeader = styled.div`
