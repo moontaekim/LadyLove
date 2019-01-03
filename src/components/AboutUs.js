@@ -8,6 +8,7 @@ const StyledAboutUs = styled.div`
   width:100vw;
   display:flex;
   flex-direction:column;
+  margin-bottom: 10vh;
 `
 const StyledImage = styled.img`
   width: 30vw;

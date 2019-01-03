@@ -9,6 +9,10 @@ background-color:rgb(172,164,157);
 display:flex;
 flex-direction: column;
 align-items:center;
+color:white;
+font-family: 'Charm', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Nunito', sans-serif;
 `
 const StyledIframe = styled.iframe`
 	border: 5px outset black;
@@ -39,7 +43,7 @@ export default class Announcements extends Component {
             src="https://www.youtube.com/embed/cH3H3KsWd5k">
           </StyledIframe>
         </Fade>
-        <div> Check out our song Dark Blue Lies recorded in Athens,GA.</div>
+        <div>Dark Blue Lies recorded in Athens,GA.</div>
         <Fade>
           <StyledIframe 
             src="https://www.youtube.com/embed/Dmvg9RenGh4">
