@@ -54,8 +54,8 @@ export default class LandingPage extends Component {
         <StyledMidPage>
         <MidPageNavigation />
         </StyledMidPage>
-        <AboutUs/>
         <Announcements/>
+        <AboutUs/>
       </div>
     )
   }

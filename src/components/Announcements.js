@@ -12,12 +12,12 @@ align-items:center;
 `
 const StyledIframe = styled.iframe`
 	border: 5px outset black;
-  margin: 10px;
+  margin: 20px 10px 10px 10px;
   position:relative;
   width: 520px;
   height: 415px;
   @media (max-width: 500px){
-    width: 80vw;
+    width: 85vw;
     height: 50vh;
 }
 `
@@ -26,6 +26,8 @@ export default class Announcements extends Component {
     return (
       <StyledAnnouncements name="music">
         <Fade>
+          <h1>Upcoming News</h1>
+          <div>04/27/2019: we are headlining aisle 5 </div>
           <StyledIframe 
             src="https://www.youtube.com/embed/EvfFBukkvVM">
           </StyledIframe>

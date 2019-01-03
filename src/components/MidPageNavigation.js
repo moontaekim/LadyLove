@@ -9,6 +9,7 @@ const StyledMidPageNavigation = styled.div`
   align-items: center;
     @media (max-width: 500px){
   height: 10vh;
+  font-size: 2rem;
 }
 `
 const StyledLink = styled.a`
