@@ -52,7 +52,7 @@ export default class AboutUs extends Component {
           <div><StyledImage src="https://i.imgur.com/n46ONhd.jpg" /></div>
           <div>
             <StyledName>Zeke <StyledInstrument>Guitar/Vocals</StyledInstrument></StyledName>
-            <StyledAbout>Severe ADHD. Half Jew. Half Ginger. Half Yellow Lab. Smokes meth everyday. Loves saying "jesus christ"</StyledAbout>
+            <StyledAbout>Severe ADHD. Half Jew. Half Ginger.</StyledAbout>
           </div>
         </StyledBio>
         </Fade>
@@ -61,7 +61,7 @@ export default class AboutUs extends Component {
         <StyledBio>
           <div>
             <StyledName>Ryan <StyledInstrument>Drums</StyledInstrument></StyledName>
-            <StyledAbout>Has dope tats. Will buy your junk. Smokes Juul. Cultured because have been to India. Doesnt own a drumset</StyledAbout>
+            <StyledAbout>Has dope tats. Doesnt own a drumset.</StyledAbout>
           </div>
           <div><StyledImage src="https://i.imgur.com/Tv9GqHn.jpg" /></div>
         </StyledBio>
@@ -72,7 +72,7 @@ export default class AboutUs extends Component {
           <div><StyledImage src="https://i.imgur.com/KfIg6Xc.jpg" /></div>
           <div>
             <StyledName>Matt <StyledInstrument>Bass/Vocals</StyledInstrument></StyledName>
-            <StyledAbout>Hates picking up the phone. Half Jew. 3/4 Ginger. Can run a mile in 5:30. Loves his dog Oregon. Lost his shoes after a wild night of ketamine.</StyledAbout>
+            <StyledAbout>Hates picking up the phone.</StyledAbout>
           </div>
         </StyledBio>
         </Fade>
@@ -81,7 +81,7 @@ export default class AboutUs extends Component {
         <StyledBio>
           <div>
             <StyledName>Moon <StyledInstrument>Guitar/Vocals</StyledInstrument></StyledName>
-            <StyledAbout>Long haired exotic korean. Uses two in one shampoo. Loves Radiohead. Will steal your bitch.</StyledAbout>
+            <StyledAbout>Long haired Korean. </StyledAbout>
           </div>
           <div><StyledImage src="https://i.imgur.com/HD3cCfW.jpg" /></div>
         </StyledBio>

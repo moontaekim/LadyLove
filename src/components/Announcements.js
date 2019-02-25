@@ -9,7 +9,6 @@ background-color:rgb(172,164,157);
 display:flex;
 flex-direction: column;
 align-items:center;
-color:white;
 font-family: 'Charm', cursive;
 font-family: 'Quicksand', sans-serif;
 font-family: 'Nunito', sans-serif;
@@ -25,25 +24,48 @@ const StyledIframe = styled.iframe`
     height: 50vh;
 }
 `
+const StyledEndless = styled.img`
+	border: 5px outset black;
+  margin: 10px 10px 10px 10px;
+  position:relative;
+  width: 520px;
+  height: 415px;
+  @media (max-width: 500px){
+    width: 85vw;
+    height: 37vh;
+}
+`
+const StyledHeader = styled.h2`
+font-family: 'Charm', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Nunito', sans-serif;  
+  border-bottom: 2px solid #eee;
+  padding-bottom: .05em;
+  width: 80vw;
+  text-align: center;
+  letter-spacing: 2px;
+`
+
 export default class Announcements extends Component {
   render() {
     return (
       <StyledAnnouncements name="music">
         <Fade>
-          <h1>Upcoming News</h1>
-          <div>04/27/2019: we are headlining aisle 5 </div>
-          <div> Check out our new song Brave Friend below!</div>
+          <StyledHeader> Endless Paradise, 4/26</StyledHeader>
+        <Fade>
+          <a href="https://imgur.com/Y6GUx3h">
+            <StyledEndless src="https://i.imgur.com/Y6GUx3h.gif" title="source: imgur.com" />
+          </a>
+        </Fade>
           <StyledIframe 
             src="https://www.youtube.com/embed/EvfFBukkvVM">
           </StyledIframe>
         </Fade>
-        <div> Check out our new song Brave Friend below!</div>
         <Fade>
           <StyledIframe 
             src="https://www.youtube.com/embed/cH3H3KsWd5k">
           </StyledIframe>
         </Fade>
-        <div>Dark Blue Lies recorded in Athens,GA.</div>
         <Fade>
           <StyledIframe 
             src="https://www.youtube.com/embed/Dmvg9RenGh4">

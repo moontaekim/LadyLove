@@ -5,6 +5,7 @@ import MidPageNavigation from './MidPageNavigation';
 import NavBar from './NavBar';
 import Announcements from './Announcements';
 import AboutUs from './AboutUs';
+import UpcomingShows from './UpcomingShows';
 
 const StyledParallax = styled.div`
 background-color: #ff6e67;
@@ -25,7 +26,6 @@ justify-content:space-between;
 position:fixed;
 background-color:rgba(172,164,157, 0.4);
 z-index: 99999;
-
 `
 const StyledMidPage = styled.div`
   overflow: hidden;
@@ -55,6 +55,8 @@ export default class LandingPage extends Component {
         <MidPageNavigation />
         </StyledMidPage>
         <Announcements/>
+        <UpcomingShows/>
+
         <AboutUs/>
       </div>
     )
