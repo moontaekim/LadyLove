@@ -52,11 +52,11 @@ export default class Announcements extends Component {
       <StyledAnnouncements name="music">
         <Fade>
           <StyledHeader> Endless Paradise. 4/26.</StyledHeader>
-        <Fade>
+       
           <a href="https://imgur.com/Y6GUx3h">
             <StyledEndless src="https://i.imgur.com/Y6GUx3h.gif" title="source: imgur.com" />
           </a>
-        </Fade>
+        
           <StyledIframe 
             src="https://www.youtube.com/embed/EvfFBukkvVM">
           </StyledIframe>
