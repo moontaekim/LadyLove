@@ -21,7 +21,7 @@ const StyledIframe = styled.iframe`
   height: 415px;
   @media (max-width: 500px){
     width: 85vw;
-    height: 50vh;
+    height: 37vh;
 }
 `
 const StyledEndless = styled.img`
