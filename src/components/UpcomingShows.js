@@ -5,6 +5,8 @@ const StyledUpcomingShows = styled.div`
   text-align: center;
   border: 1px black solid;
   padding-bottom: 15px;
+  background:black;
+  color:white;
 `
 
 export default class UpcomingShows extends Component {
