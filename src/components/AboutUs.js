@@ -52,7 +52,7 @@ export default class AboutUs extends Component {
           <div><StyledImage src="https://i.imgur.com/n46ONhd.jpg" /></div>
           <div>
             <StyledName>Zeke <StyledInstrument>Guitar/Vocals</StyledInstrument></StyledName>
-            <StyledAbout>Severe ADHD. Half Jew. Half Ginger.</StyledAbout>
+            <StyledAbout>Cant sit still.</StyledAbout>
           </div>
         </StyledBio>
         </Fade>
